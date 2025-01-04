@@ -2,6 +2,7 @@
 import React from "react";
 import MyInfo from "../../components/MyInfo";
 import StackTech from "../../components/StackTech";
+import StackTools from "../../components/StackTools";
 import './AboutMe.css';
 
 function AboutMe() {
@@ -25,6 +26,7 @@ function AboutMe() {
                     Tools
                 </h1>
                 <hr />
+                <StackTools />
             </div>
         </div>
     );
